@@ -179,7 +179,7 @@ def is_chord(string):
     line_as_list = string.split(' ')
 
     for chord in chords:
-        if chord in line_as_list and not any('-' in x for x in line_as_list):
+        if chord in line_as_list and not any(len(x) > 3 for x in line_as_list):
             return True
 
 # Parser to handle URL in argument.
