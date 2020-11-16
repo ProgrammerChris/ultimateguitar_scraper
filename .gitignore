@@ -1,0 +1,8 @@
+pdfs
+docs
+venv
+Lib
+.idea
+__pycache__
+geckodriver.log
+chromedriver.exe
