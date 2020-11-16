@@ -2,6 +2,7 @@ pdfs
 docs
 venv
 Lib
+Scripts
 .idea
 __pycache__
 geckodriver.log
